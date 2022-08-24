@@ -1,0 +1,8 @@
+Flask
+flask_restful
+pymongo
+pymongo[srv]
+python-decouple
+python-dotenv
+requests
+pandas

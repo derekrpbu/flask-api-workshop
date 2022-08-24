@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  security:
+    build: ./security
+    ports:
+      - "8000:8000"
+  books:
+    build: ./books
+    ports:
+      - "5000:5000"
