@@ -1,15 +1,3 @@
-# About of the repo
-
-## main branch: 
-
-It has an almost complete solucion about the project developed in monolithic architecture.
-
-## template branch
-
-It is a template project where you can take it for starting your own solution.
-
-# Workshop in RestApi (Python): Books Information
-
 ## Problem statement
 
 Create a restapi with microservice architecture with following apis:
@@ -39,19 +27,6 @@ Create an api with endpoints for searching a book (request to another api).
 | GetByKey | Endpoint that returns the details of a book | key | { data: {title, description, covers, subjects:["A", "B"], latestRevision}, responseCode , message} | https://openlibrary.org/works/{key}.json | https://openlibrary.org/works/OL15099863W.json |
 
 
-## Important to know
-
-```sh
-
-You can take the main branch as an example, however, it is not in a microservice architecture.
-
-You must follow the folders structure in the project (db, controlles, models, util).
-
-Remember apply the best practices as: Unit testing, environment variables, applying design patterns and modularity.
-
-Additionally, you can configure dcoker container in the project.
-
-```
 
 ## Things to consider them:
 
