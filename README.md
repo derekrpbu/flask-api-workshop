@@ -1,13 +1,13 @@
-## Problem statement
+## About Repo
 
-Create a restapi with microservice architecture with following apis:
+Rest API with microservice architecture with following apis:
 
 
 - Security
 
-This api needs to have a CRUD behavior for Users, the user information shoul be stored in MongoDB.
+CRUD behavior for Users, the user information is stored MongoDB.
 
-Required endpoints in the api:
+Endpoints in the api:
 
 | EndPoint | Description | Input | Output |
 | ------ | ------ | ------ | ------ |  
@@ -19,7 +19,7 @@ Required endpoints in the api:
 
 - Book
 
-Create an api with endpoints for searching a book (request to another api).
+Endpoints for searching a book (request to another api).
 
 | EndPoint | Description | Input | Output | Request | Example
 | ------ | ------ | ------ | ------ | ------ | ------ |   
